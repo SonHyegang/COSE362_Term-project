@@ -1,7 +1,7 @@
 import cv2
 import os
 
-def video2img(videoPath = './classifiers/yolov7/testdata/', file = 'video'):
+def video2img(videoPath = './classifiers/yolov7/', file = 'video'):
     """
     Video Sampling
     Path : Fishchecker/example
@@ -10,7 +10,7 @@ def video2img(videoPath = './classifiers/yolov7/testdata/', file = 'video'):
     path2 = os.path.abspath(os.path.join(path1, '..'))
     print(path1, path2)
 
-    imagePath = './classifiers/yolov7/testdata/images/'
+    imagePath = './classifiers/yolov7/images/'
     #file_list = os.listdir(videoPath)
     
     if not (os.path.isdir(videoPath + file)):
