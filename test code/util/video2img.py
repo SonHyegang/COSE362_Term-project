@@ -1,7 +1,7 @@
 import cv2
 import os
 
-def video2img(videoPath = './classifiers/yolov7/', file = 'video'):
+def video2img(videoPath = './classifiers/yolov7/testdata/', file = 'video'):
     """
     Video Sampling
     Path : Fishchecker/example
